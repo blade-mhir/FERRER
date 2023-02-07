@@ -1,3 +1,17 @@
+body{
+  background-image:url(https://www.pexels.com/photo/modern-art-painting-in-white-950241/);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 img {
     border-radius: 50%;
+    height: auto;
+  }
+
+  h1{
+    font-family: "Montserrat";
+  }
+
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
   }
