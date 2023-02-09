@@ -1,17 +1,343 @@
 body{
-  background-image:url(https://www.pexels.com/photo/modern-art-painting-in-white-950241/);
-  background-repeat: no-repeat;
-  background-size: auto;
+font-family: Montserrat;
+background:#E7f7F4;
+display: flex; 
+align-items: center;
+justify-content: center;
+min-height: 100;
 }
-img {
-    border-radius: 50%;
-    height: auto;
-  }
 
-  h1{
-    font-family: "Montserrat";
-  }
+.panel{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100px;
+  min-height: 1000px;
+  background: white;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
 
-  h2{
-    font-family: Arial, Helvetica, sans-serif;
-  }
+.panel .left{
+  position: relative;
+  background: #344683;
+  padding: 40px;
+}
+  
+.profile{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.profile .profile_img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 6px solid #555;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile .profile_img img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile h2{
+  color:white;
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.profile p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: #b1c5cb;
+  margin-top: 0px;
+  line-height: 90%;
+}
+
+.profile p b{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: #b1c5cb;
+  margin-top: 0px;
+  line-height: 90%;
+}
+
+.personalDet{
+  padding-top: 5px;
+}
+
+.personalDet .title2{
+  color:white;
+  text-align: left;
+}
+
+.personlDet ul{
+  position: relative;
+  
+}
+
+.personalDet ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0px;
+  margin-left: -20px;
+}
+
+.personalDet .text{
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.text1{
+  color: #bcbcbc;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 35px;
+}
+
+.personalDet ul li .logo{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: light;
+  text-align: left;
+}
+
+.personalDet ul li span{
+  color: white;
+  font-weight: 300;
+}
+
+.personalDet a{
+  color: #bcbcbc;
+}
+
+.interests{
+  padding-top: 5px;
+}
+
+.interests .title2{
+  color:white;
+  text-align: left;
+}
+
+.interests ul{
+  position: relative;
+  
+}
+
+.interests ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0px;
+  margin-left: -20px;
+}
+
+.interests .text{
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.interests ul li .logo{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: light;
+  text-align: left;
+}
+
+.interests ul li span{
+  color: white;
+  font-weight: 300;
+}
+
+.interests a{
+  position: relative;
+  top: 210px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba();
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s; 
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.interests .contact:hover, .contact:focus, .contact:active{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+.panel .right{
+  position: relative;
+  background: white;
+  padding: 40px;
+}
+
+.about_Me ul{
+  position: relative;
+  list-style: none;
+}
+
+.about_Me .title2{
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #435c79;
+}
+
+.about_Me p{
+  font-size:13px;
+  text-align: justify;
+}
+
+.educ_History .tary{
+ display: flex;
+ flex-direction: row;
+ margin-top: 0px;
+ 
+}
+
+.educ_History{
+  margin-bottom: 0px;
+}
+
+.educ_History .title2 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #435c79;
+}
+
+.educ_History ul li{
+  position: relative;
+  list-style: none;
+  margin: 0px 0px;
+}
+.educ_History .tary .duration{
+  min-width: 150px;
+  
+}
+
+.educ_History .tary .duration h5{
+  color:#555;
+  font-weight: 600;
+  
+}
+
+.educ_History .tary .school h4{
+  color:black;
+  font-size: 15px;
+  text-align: center;
+}
+
+.gen_Skills .title2 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #435c79;
+  margin-top: 100px;
+}
+
+.gen_Skills  ul li{
+  position: relative;
+  list-style: none;
+}
+
+.gen_Skills .skills ul li{
+  position: relative;
+  list-style: none;
+  margin-left: -75px;
+  margin-top: 10px;
+}
+
+.gen_Skills .skills ul li .text{
+  color: #555;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 200%;
+}
+
+.work_Exp ul{
+  position: relative;
+  list-style: none;
+}
+
+.work_Exp .title2 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #435c79;
+}
+
+.work_Exp table td{
+  color: #555;
+}
+
+.work_Exp table a{
+  color: #555;
+}
+
+.work_Exp .business_Desc{
+  color: black;
+  font-size: 18px;
+}
+
+.work_Exp .business_Name{
+  font-size: 15px;
+}
+
+table{
+  margin-top: -40px;
+  margin-left: 40px;
+}
+
+.character_Ref ul{
+    position: relative;
+    list-style: none;
+}
+
+.character_Ref .title2{
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #435c79;
+ }
+
+.character_Ref .person_Ref{
+  line-height: 40%;
+  margin-left: -15px;
+  margin-top: 20px;
+ }
+
+.character_Ref .person_Ref i{
+  font-size: 15px;
+  color: #555;
+ }
+
+
+

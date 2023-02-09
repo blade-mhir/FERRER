@@ -1,26 +1,152 @@
 body{
-    background-color: #caf0f8;
+    background:#E7f7F4;
+    
+}
+
+.back{
     font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba();
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s; 
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
-input[type="submit"]{
+.back:hover, .back:focus, .back:active{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.body_one{
+    font-family: Montserrat;
+    background:#E7f7F4;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100;
+}
+
+.panel{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 400px;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100;
+}
+
+.panel .left{
+    position: relative;
+    padding: 40px;
+}
+
+.panel .right{
+    position: relative;
+    padding: 40px;
+}
+
+.right h1{
+    color: #435c79;
+    font-size: 58px;
+    text-align: justify;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.rght p{
+    text-align: justify;
+}
+
+.right input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.right input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+.right textarea[name="message"]{
+    resize: none;
+    font-family: Montserrat;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.right input[type="submit"]{
     background-color: #16e0bd;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     color: white;
-    height: 20px;
-    width: 80px;
-    font-size: 14px;
+    height: 30px;
+    width: 140px;
+    font-size: 25px;
     font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba();
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s; 
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
-input[type="reset"]{
+.right .send:hover, .send:focus, .send:active{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.right input[type="reset"]{
     background-color: #ffdb58;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     color: white;
-    height: 20px;
-    width: 80px;
-    font-size: 14px;
+    height: 30px;
+    width: 140px;
+    font-size: 25px;
     font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba();
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s; 
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.right .reset:hover, .reset:focus, .reset:active{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }

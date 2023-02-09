@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Form Activity</title>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="style_contact.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <a href="index.html">RETURN</a>
-        <h1>Drop a Message</h1>
-        <form>
-        <input type="text" placeholder="Enter your name" name="name"/>
-        <br />
-        <input type="email" placeholder="Enter your email" name="email" />
-        <br />
-        <textarea name="message" placeholder="Your message here..."cols="25" rows="10"></textarea> 
-        <br />
-        <input type="submit" name="submit" value="submit"/>
-        <input type="reset" name="reset" value="reset"/>
-        <br />
-        <a href="https://www.facebook.com/Blademhir31/">Facebook</a>
-        <a href="https://github.com/blade-mhir">GitHub</a>
-        </form>
+        <a href="index.html" class="back">BACK</a>
+        <div class="body_one">
+            <div class="panel">
+                <div class="left">
+                    <div class="profile_img">
+                        <img src = "email.png" alt = "email"  width = "400" height = "400" >
+                    </div>
+                </div>
+                <div class="right">
+                    <h1>CONTACT ME</h1>
+                    <p>Do you have a question, inquiry, or feedback? Feel free to contact me by filling out the details below!</p>
+                    <form>
+                        <input type="text" placeholder="First Name" name="name"/>
+                        <br />
+                        <input type="text" placeholder="Last Name" name="name"/>
+                        <br />
+                        <input type="email" placeholder="What's your email?" name="email" />
+                        <br />
+                        <textarea name="message" placeholder="Your message..."cols="50" rows="10"></textarea> 
+                        <br />
+                        <input type="submit" class="send" name="send" value="Send"/> 
+                        <input type="reset" class="reset" name="reset" value="Reset"/> 
+                        <br />
+                    </form>
+                </div>
+            </div>
+        </div>    
     </body>
 </html>
