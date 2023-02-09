@@ -1,6 +1,5 @@
 body{
     background:#E7f7F4;
-    
 }
 
 .back{
@@ -65,7 +64,7 @@ body{
 
 .right h1{
     color: #435c79;
-    font-size: 58px;
+    font-size: 56px;
     text-align: justify;
     margin-bottom: 0px;
     letter-spacing: 1px;
@@ -76,6 +75,7 @@ body{
 }
 
 .right input[type=text], select {
+    font-family: Montserrat;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -86,6 +86,7 @@ body{
 }
 
 .right input[type=email], select {
+    font-family: Montserrat;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -97,12 +98,13 @@ body{
 
 
 .right textarea[name="message"]{
-    resize: none;
     font-family: Montserrat;
+    resize: none;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 14px;
+    padding: 1rem;
 }
 
 .right input[type="submit"]{
